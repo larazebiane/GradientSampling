@@ -24,5 +24,5 @@ The method is particularly useful for problems where the objective function is *
 The following pseudocode outlines the complete Gradient Sampling algorithm for minimizing an objective function $f : \mathbb{R}^n \rightarrow \mathbb{R}$ that is locally Lipschitz and continuously differentiable in an open set $\mathcal{D}$ with full measure in $\mathbb{R}^n$.
 
 <p align="center">
-  <img src="assets/alg1.png?raw=true" width="600" alt="Gradient Sampling Pseudocode">
+  <img src="assets/alg1.png" width="600" alt="Gradient Sampling Pseudocode">
 </p>
