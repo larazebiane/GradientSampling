@@ -23,4 +23,6 @@ The method is particularly useful for problems where the objective function is *
 
 The following pseudocode outlines the complete Gradient Sampling algorithm:
 
-![Gradient Sampling Pseudocode](assets/alg1.pdf)
+<p align="center">
+  <img src="assets/alg1.png?raw=true" width="600" alt="Gradient Sampling Pseudocode">
+</p>
