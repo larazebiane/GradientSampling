@@ -38,19 +38,19 @@ where $f$ is **locally Lipschitz** and **continuously differentiable** in an ope
 
 ## 💻 Code Availability
 
-The pseudocode above is implemented in the MATLAB file [`GS.m`](./GS.m), which provides the full Gradient Sampling algorithm. The main function has the following signature:
+The pseudocode above is implemented in the MATLAB file [`origGS.m`](./origGS.m), which provides the full Gradient Sampling algorithm. The main function has the following signature:
 
 ```matlab
-[x_opt, info] = GS(x0, f,g, nonDiffPoints, epsilon0, nu0, m, n, beta, gamma, epsilon_opt, nu_opt, theta_epsilon, theta_nu, maxit);
+[x_opt, info] = origGS(x0, f,g, nonDiffPoints, epsilon0, nu0, m, n, beta, gamma, epsilon_opt, nu_opt, theta_epsilon, theta_nu, maxit);
 ```
 
-To test the implementation, see the script [`GS.m`](./GS.m), which sets up an example objective function, its gradient, and relevant parameters.
+To test the implementation, see the script [`origGS.m`](./origGS.m), which sets up an example objective function, its gradient, and relevant parameters.
 
 ---
 
 ## 🧪 Results & Analysis
 
-The following table summarizes the results obtained by running the `GS.m` algorithm on the **piecewise-defined, nonsmooth function** implemented in [`testGS.m`](./testGS.m). This example showcases how the Gradient Sampling method performs in practice when minimizing a function that is not differentiable everywhere.
+The following table summarizes the results obtained by running the `origGS.m` algorithm on the **piecewise-defined, nonsmooth function** implemented in [`test_origGS.m`](./test_origGS.m). This example showcases how the Gradient Sampling method performs in practice when minimizing a function that is not differentiable everywhere.
 
 | Iter | xₖ       | f(xₖ)   | ‖gₖ‖      | εₖ     | νₖ     | tₖ |
 |------|----------|---------|---------|--------|--------|----------------|
