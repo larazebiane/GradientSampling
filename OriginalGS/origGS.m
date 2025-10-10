@@ -119,7 +119,7 @@ else
     fprintf('Termination conditions met.\n');
 end
 
-% Return info struct with iteration count and final solution
+% Return info struct with iteration count and the final solution
 info.iter = iter;
 info.xk = xk;
 end
