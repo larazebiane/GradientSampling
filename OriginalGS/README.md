@@ -6,7 +6,7 @@ Traditional gradient-based optimization methods can struggle when the objective 
 
 ---
 
-## 🔍 Algorithm Overview
+## 🔍 Algorithm Overview  
 
 The GS algorithm works by:
 
