@@ -61,7 +61,7 @@ The following table summarizes the results obtained by running the `origGS.m` al
 | 4    | 0.484832 | 1.4848  | 1.0000  | 0.1    | 0.001  | 1              |
 | 5    | -0.515168| 0.4848  | 1.0000  | 0.1    | 0.001  | 0.5            |
 | 6    | -1.01517 | 0.0152  | 0.0000  | 0.001  | 0.001  | 1              |
-| 7    | -1.01517 | 0.0152  | 0.0000  | 0.001  | 0.001  | 1.56e-02     |
+| 7    | -1.01517 | 0.0152  | 0.0000  | 0.001  | 0.001  | 1.56e-02       |
 | 8    | -0.999543| 0.0005  | 0.0000  | 0.001  | 0.001  | 1              |
 
 A step-by-step explanation of how the algorithm behaves in this case:
