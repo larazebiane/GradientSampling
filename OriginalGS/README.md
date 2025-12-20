@@ -68,5 +68,5 @@ A step-by-step explanation of how the algorithm behaves in this case:
 
 Starting at $x_0=3$, the gradient in the neighborhood is constant at 0.5, so the algorithm moves to $x_1=2.5$ using a full step size. Another full step would take us to $x_2=2$, but since the function is nondifferentiable there, the algorithm instead moves to a nearby differentiable point $x_2=1.98483$. The algorithm continues similarly until iteration 6, where it finds an approximate stationary point $x_6=−1.01517$ with gradient close to zero. At this point, the sampling radius shrinks and the algorithm stays at the same point for one iteration before finally terminating at $x_8$ ​ after meeting the stopping criteria.
 
----
+--- 
 
