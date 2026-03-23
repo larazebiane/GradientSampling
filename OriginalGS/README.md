@@ -8,7 +8,7 @@ Traditional gradient-based optimization methods can struggle when the objective 
 
 ## 🔍 Algorithm Overview  
 
-The GS algorithm works by:
+The GS algorithm works by: 
 
 1. Sampling gradients of the objective function in a small ball around the current iterate.
 2. Computing a generalized descent direction based on the convex hull of sampled gradients.
