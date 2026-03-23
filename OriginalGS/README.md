@@ -4,7 +4,7 @@ This repository implements the **Gradient Sampling (GS) algorithm**, a powerful 
 
 Traditional gradient-based optimization methods can struggle when the objective function is not differentiable everywhere. The GS algorithm addresses this by sampling gradients in a neighborhood around the current point, forming a convex hull of these gradients, and then using this information to construct descent directions.
 
----
+--- 
 
 ## 🔍 Algorithm Overview  
 
