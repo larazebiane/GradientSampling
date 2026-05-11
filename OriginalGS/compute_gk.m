@@ -3,7 +3,7 @@ function [gk, sampled_points] = compute_gk(xk, g, epsilon_k, m)
 %
 % Inputs:
 %   xk        - Current point (column vector)
-%   g         - Function handle for gradient evaluation 
+%   g         - Function handle for gradient evaluation
 %   epsilon_k - Sampling radius 
 %   m         - Number of sample points 
 %
