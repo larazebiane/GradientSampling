@@ -1,6 +1,6 @@
 function [gk, sampled_points] = compute_gk(xk, g, epsilon_k, m)
 % COMPUTE_GK Approximates the gradient at point xk using gradient sampling.
-%
+% 
 % Inputs:
 %   xk        - Current point (column vector)
 %   g         - Function handle for gradient evaluation
